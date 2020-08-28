@@ -8,6 +8,13 @@ html, body {
     font-family: "phantom sans", system-ui, sans-serif;
 }  
 
+section {
+  max-width: 1000px;
+  margin: auto;
+  min-height: 93vh;
+  padding-top:20px;
+}
+
 @font-face {
     font-family: 'Phantom Sans';
     src: url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Regular.woff')
@@ -39,9 +46,3 @@ html, body {
     font-display: swap;
   }
 
-section {
-    max-width: 600px;
-    margin: auto;
-    min-height: 93vh;
-    padding-top:20px;
-}
